@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio - Cristiano Alan Vieira</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Portfólio pessoal</h1>
+        <nav>
+            <ul>
+                <li><a href="file:///C:/Users/crist/OneDrive/%C3%81rea%20de%20Trabalho/meusait/Sobre%20min.html.html">Sobre Mim</a></li>
+                <li><a href="file:///C:/Users/crist/OneDrive/%C3%81rea%20de%20Trabalho/meusait/Forma%C3%A7ao.html.html">Formação</a></li>
+                <li><a href="file:///C:/Users/crist/OneDrive/%C3%81rea%20de%20Trabalho/meusait/FORMULARIO.HTML">Portfólio</a></li>
+                <li><a href="file:///C:/Users/crist/OneDrive/%C3%81rea%20de%20Trabalho/meusait/contatos.html.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="introducao">
+            <h2>Introdução</h2>
+            <p>Este é o meu portfólio, onde compartilho um pouco sobre mim, minha formação e meus projetos.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Cristiano Alan Vieira - Todos os direitos reservados</p>
+    </footer>
+
+    <script>
+        // Exemplo de uma função JavaScript simples
+        document.addEventListener('DOMContentLoaded', function() {
+            const navLinks = document.querySelectorAll('nav ul li a');
+            navLinks.forEach(link => {
+                link.addEventListener('mouseover', function() {
+                    this.style.color = 'yellow';  // Muda a cor do link ao passar o mouse
+                });
+
+                link.addEventListener('mouseout', function() {
+                    this.style.color = '';  // Restaura a cor do link
+                });
+            });
+        });
+    </script>
+</body>
+</html>
